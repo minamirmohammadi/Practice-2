@@ -44,8 +44,28 @@
         border: none;
         cursor: pointer;
         margin-left: 70px;
+        font-family: my font2;
     } 
     .item4{
         margin-left: 188px;
     }
+}
+@font-face{
+    font-family: "my font1"; src: url("font/RedHatDisplay-Black.ttf") format("woff");
+}
+@font-face{
+    font-family: "my font2"; src: url("font/RedHatDisplay-Light.ttf") format("woff");
+}
+@font-face{
+    font-family: "my font3"; src: url("font/RedHatDisplay-Medium.ttf") format("woff");
+}
+h1{
+    font-family: my font1;
+}
+p,a{
+    font-family: my font2;
+}
+h4{
+    font-family: my font3;
+}
     
