@@ -44,9 +44,6 @@ body{
 .item4 a{
     text-decoration: none;
         }
-.item4 a:hover{
-    color: hsl(223, 47%, 23%);
-        }
         
 .button{
     background-color: hsl(245, 75%, 52%);
