@@ -49,7 +49,8 @@
     .item4{
         margin-left: 188px;
     }
-}
+
+
 @font-face{
     font-family: "my font1"; src: url("font/RedHatDisplay-Black.ttf") format("woff");
 }
