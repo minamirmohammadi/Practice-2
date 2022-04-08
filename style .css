@@ -32,11 +32,11 @@
     .item3{
         margin-left: -100px;
     }
-    a{
+    .item4 a{
         text-decoration: none;
     }
      button[type=button]{
-        background-color: blue;
+        background-color: hsl(245, 75%, 52%);
         border-radius: 7px;
         padding: 7px 100px;
         text-align: center;
@@ -46,6 +46,9 @@
         margin-left: 70px;
         font-family: my font2;
     } 
+    .button:hover{
+        background-color: hsl(225, 100%, 94%);
+    }
     .item4{
         margin-left: 188px;
     }
