@@ -35,6 +35,9 @@ body{
 .item3 a:hover{
     text-decoration: none;
         }
+.item3 a{
+    color: hsl(245, 75%, 52%);
+        }
 .item4{
     margin-left: 188px;
         }
