@@ -6,52 +6,60 @@
     background-color: white;
     
         }
-        body{
-        background-image: url(images/pattern-background-desktop.svg);
-        background-repeat: no-repeat;
-        background-color: hsl(225, 100%, 98%);
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 98%);
         
         }
-        .cart img{
-            border-top-left-radius: 25px;
-            border-top-right-radius: 25px;
+.cart img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
         }
-        .container1{
-            text-align: center;
+.container1{
+    text-align: center;
     
         }
-        .container2{
-            display: grid;
-            grid-template-columns: auto auto auto auto;
-            align-items: center;
-            margin-left: 90px;
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    margin-left: 90px;
         }
-    .item2{
-        margin-right: 170px;
+.item2{
+    margin-right: 170px;
     }
-    .item3{
-        margin-left: -100px;
+.item3{
+    margin-left: -100px;
     }
-    .item4 a{
-        text-decoration: none;
-    }
-     button[type=button]{
-        background-color: hsl(245, 75%, 52%);
-        border-radius: 7px;
-        padding: 7px 100px;
-        text-align: center;
-        color: white;
-        border: none;
-        cursor: pointer;
-        margin-left: 70px;
-        font-family: my font2;
+.item3 a:hover{
+    text-decoration: none;
+        }
+.item4{
+    margin-left: 188px;
+        }
+.item4 a{
+    text-decoration: none;
+        }
+.item4 a:hover{
+    color: hsl(223, 47%, 23%);
+        }
+        
+.button{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 7px;
+    padding: 7px 100px;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 70px;
+    font-family: my font2;
     } 
-    .button:hover{
-        background-color: hsl(225, 100%, 94%);
+.button:hover{
+    background-color: hsla(271, 100%, 52%, 0.925);
     }
-    .item4{
-        margin-left: 188px;
-    }
+    
 
 
 @font-face{
