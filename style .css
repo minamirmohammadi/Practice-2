@@ -4,8 +4,10 @@
     margin: 100px auto;
     border-radius: 25px;
     background-color: white;
+    display: grid;
+    justify-items: center;
     
-        }
+}
 body{
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
@@ -24,20 +26,27 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto;
     align-items: center;
-    margin-left: 90px;
+    width: 375px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 7px;
         }
+.container3{
+    display: grid;
+    justify-items: center;
+        } 
+.item1{
+    margin-left: 30px;
+}
 .item2{
-    margin-right: 170px;
+    margin-right: 110px;
     }
 .item3{
-    margin-left: -100px;
+    margin-left: -30px;
     }
 .item3 a:hover{
     text-decoration: none;
         }
-.item4{
-    margin-left: 188px;
-        }
+
 .item4 a{
     text-decoration: none;
         }
@@ -45,12 +54,12 @@ body{
 .button{
     background-color: hsl(245, 75%, 52%);
     border-radius: 7px;
-    padding: 7px 100px;
+    padding: 7px;
+    width: 375px;
     text-align: center;
     color: white;
     border: none;
     cursor: pointer;
-    margin-left: 70px;
     font-family: my font2;
     } 
 .button:hover{
@@ -77,4 +86,4 @@ p,a{
 h4{
     font-family: my font3;
 }
-    
+   
