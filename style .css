@@ -37,6 +37,7 @@ body{
         } 
 .item2{
     justify-self: baseline;
+    margin-left: -8px;
 }
 
 .item3 a:hover{
